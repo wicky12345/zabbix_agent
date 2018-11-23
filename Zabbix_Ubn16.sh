@@ -246,4 +246,3 @@ if
 	else
 		echo "Zabbix-agent is not Run, Please check whether the Zabbix-agent is installed correctly."
 fi
-
