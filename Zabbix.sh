@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 usage() { echo "Usage: $0 [-s <zabbix server ip(s)>] [-n <zabbix host name>]" 1>&2; exit 1; }
 if [ ! "$#" == "4" ]; then usage; fi
 while getopts ":s:n:" o; do
